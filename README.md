@@ -1,4 +1,4 @@
-# IG titer quantification from fitted sigmoidal curves
+# IG titer quantification from single point dilution points
 
 
 ## Table of contents
