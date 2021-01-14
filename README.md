@@ -18,7 +18,7 @@ Evaluation of the model is carried out by X-fold cross-validation carried out N 
 
 This is part of a laboratory-developed antibody test that uses readily available research-grade reagents to detect SARS-CoV-2 exposure in patient blood samples with high sensitivity and specificity. We further show that this test affords the estimation of viral spike-specific IgG titers from a single sample measurement, thereby providing a simple and scalable method to measure the strength of an individual's immune response.
 
-Link to the preprint: https://www.medrxiv.org/content/10.1101/2020.09.10.20192187v1
+Link to preprint: https://www.medrxiv.org/content/10.1101/2020.09.10.20192187v1
 
 
 ## Input
