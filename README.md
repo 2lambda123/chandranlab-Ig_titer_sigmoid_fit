@@ -1,4 +1,4 @@
-# IG titer quantification from single dilution points
+# Antibody titer quantification from single dilution points
 
 
 ## Table of contents
