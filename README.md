@@ -10,7 +10,7 @@
 
 ## Input
 The input file is an excel file \
-<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/input.png" width="300" align="center">
+<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/input.png" width="300" align="center" title="Input example">
 
 ## Output
 
