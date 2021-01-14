@@ -10,7 +10,8 @@
 
 ## Input
 dd
-![Input example](Images/input.png width="50")
+![Input example](Images/input.png | width=50)
+#<img Images/input.png width="50">
 
 ## Output
 dd
