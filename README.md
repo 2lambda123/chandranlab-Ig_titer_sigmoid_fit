@@ -27,7 +27,7 @@ The input file is an excel file where the first column "Sample" describes the sa
 
 <p align="center">
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/fitted_sigmoidal.png"
-	width="300" title="Input example"><br>
+	width="500" title="Input example"><br>
 	Experimental data and its fitted sigmoidal<br>
 </p>
 
