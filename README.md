@@ -9,7 +9,13 @@
 
 
 ## Input
-The input file is an excel file where the first column "Sample" describes the sample name, the second column "Titer" shows the experimentally determined titers and the third column "Absorbance" shows the corresponding absorbances at a given dilution point:
+The input file is an excel file, the column titles need to be as described in the figure:
+
+    Column A   "Sample": Describes the sample name
+    
+    Column B   "Titer": shows the experimentally determined titers
+    
+    Column C   "Absorbance": shows the corresponding absorbances at a given dilution point
 
 
 <p align="center">
