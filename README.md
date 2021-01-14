@@ -122,7 +122,7 @@ Observed and predicted values are also reported in an excel file ('output\_dir/i
 
 
 <p align="center">
-	<b>Overview of the input dataset used in this study</b><br>
+	<b>Example of the evaluation summary describing R^2 and RMSE at each round of 10-fold cross-validation</b><br>
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/output_xfold_eval.png"
 	width="500" title="Input example"><br>
 	
