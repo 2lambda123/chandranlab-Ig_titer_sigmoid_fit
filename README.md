@@ -19,9 +19,10 @@ The input file is an excel file, the column titles need to be as described in th
 
 
 <p align="center">
+Overview of the input dataset used in this study<br>
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/input.png"
 	width="400" title="Input example"><br>
-	Overview of the input dataset used in this study<br>
+	
 </p>
 
 
@@ -44,9 +45,9 @@ The transformed data used to train and test the fitted sigmoidal curve is saved 
 Using the entire dataset, the script fits a first sigmoidal curve. The parameters of the sigmoidal curve (minimum y, maximum y, EC50, Hill coefficient) are saved in a text file '*_model.txt'. A plot is also generated to visualize both the experimental data (blue dots) and the fitted sigmoidal curve (black line):
 
 <p align="center">
+	Experimental data and its fitted sigmoidal<br>
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/fitted_sigmoidal.png"
 	width="500" title="Input example"><br>
-	Experimental data and its fitted sigmoidal<br>
 </p>
 
 
@@ -58,9 +59,10 @@ At each evaluation iteration the algorithm computes the R^2 and Root Mean Square
 
 
 <p align="center">
+	R^2 Example of R^2 histogram after evaluating the sigmoidal curve by 10-Fold cross-validation 100 times<br>
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/histogram.png"
 	width="500" title="Input example"><br>
-	R^2 Example of R^2 histogram after evaluating the sigmoidal curve by 10-Fold cross-validation 100 times<br>
+
 </p>
 
 In addition, observed and predicted titers are plotted, along with the fitted regression model, at each evaluation iteration:
