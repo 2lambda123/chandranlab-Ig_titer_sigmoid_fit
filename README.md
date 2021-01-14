@@ -19,7 +19,7 @@ The input file is an excel file, the column titles need to be as described in th
 
 
 <p align="center">
-Overview of the input dataset used in this study<br>
+	<b>Overview of the input dataset used in this study</b><br>
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/input.png"
 	width="400" title="Input example"><br>
 	
@@ -45,7 +45,7 @@ The transformed data used to train and test the fitted sigmoidal curve is saved 
 Using the entire dataset, the script fits a first sigmoidal curve. The parameters of the sigmoidal curve (minimum y, maximum y, EC50, Hill coefficient) are saved in a text file '*_model.txt'. A plot is also generated to visualize both the experimental data (blue dots) and the fitted sigmoidal curve (black line):
 
 <p align="center">
-	Experimental data and its fitted sigmoidal<br>
+	<b>Experimental data and its fitted sigmoidal</b><br>
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/fitted_sigmoidal.png"
 	width="500" title="Input example"><br>
 </p>
@@ -59,7 +59,7 @@ At each evaluation iteration the algorithm computes the R^2 and Root Mean Square
 
 
 <p align="center">
-	R^2 Example of R^2 histogram after evaluating the sigmoidal curve by 10-Fold cross-validation 100 times<br>
+	<b>R^2 Example of R^2 histogram after evaluating the sigmoidal curve by 10-Fold cross-validation 100 times</b><br>
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/histogram.png"
 	width="500" title="Input example"><br>
 
@@ -68,9 +68,10 @@ At each evaluation iteration the algorithm computes the R^2 and Root Mean Square
 In addition, observed and predicted titers are plotted, along with the fitted regression model, at each evaluation iteration:
 
 <p align="center">
+	<b>Observed Vs Predicted titers at a given iteration of X-fold cross-validation</b><br>
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/iter_0_10-fold_Observed_Vs_Predicted.png"
 	width="500" title="Input example"><br>
-	Observed Vs Predicted titers at a given iteration of X-fold cross-validation<br>
+	
 </p>
 
 
