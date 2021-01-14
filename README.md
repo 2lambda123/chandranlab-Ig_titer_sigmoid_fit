@@ -9,10 +9,10 @@
 
 
 ## Input
-The input file is an excel file \
+The input file is an excel file\
 <p align="center">
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/input.png"
-	width="300" align="center" title="Input example">
+	width="300" title="Input example">
 	<figcaption>Optional title</figcaption>
 </p>
 ## Output
