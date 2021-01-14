@@ -36,9 +36,9 @@ The input file is an excel file where the first column "Sample" describes the sa
 dd
 
 <p align="center">
-	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/histograme.png"
+	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/histogram.png"
 	width="500" title="Input example"><br>
-	Experimental data and its fitted sigmoidal<br>
+	Histograme<br>
 </p>
 
 dd
@@ -46,5 +46,9 @@ dd
 <p align="center">
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/iter_0_10-fold_Observed_Vs_Predicted.png"
 	width="500" title="Input example"><br>
-	Experimental data and its fitted sigmoidal<br>
+	Observed Vs Predicted titers at a given iteration of X-fold cross-validation<br>
 </p>
+
+
+dd
+
