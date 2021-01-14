@@ -10,7 +10,7 @@
 
 ## Input
 dd
-![Input example](/Images/input.png)
+![Input example](Images/input.png)
 
 ## Output
 dd
