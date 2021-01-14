@@ -11,7 +11,9 @@
 ## Input
 The input file is an excel file \
 <figure>
-<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/input.png" width="300" align="center" title="Input example"/>
+	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/input.png"
+	width="300" align="center" title="Input example"/>
+	<figcaption>Optional title</figcaption>
 </figure>
 
 ## Output
