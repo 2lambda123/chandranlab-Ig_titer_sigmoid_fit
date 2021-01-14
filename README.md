@@ -72,7 +72,7 @@ At each evaluation round the algorithm computes the R<sup>2</sup> and Root Mean 
 
 
 <p align="center">
-	<b>R<sup>2</sup> Example of R<sup>2</sup> histogram after evaluating the sigmoidal curve by 10-Fold cross-validation 100 times</b><br>
+	Example of R<sup>2</sup> histogram after evaluating the sigmoidal curve by 10-Fold cross-validation 100 times</b><br>
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/histogram.png"
 	width="500" title="Input example"><br>
 
