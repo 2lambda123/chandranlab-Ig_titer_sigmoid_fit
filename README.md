@@ -6,7 +6,15 @@
 * [Output](#Output)
 
 ## Overview
+fit\_and_evaluate.ipynb fits a sigmoidal data to a given input file describing antibody titers and the corresponding absorbance readout using the following equation:
 
+
+y = ymin + ymax - ymin / 1 + 10(log10EC50 - x*Hill)
+ 
+ 
+Where y corresponds to the absorbance; ymin and ymax are the minimum and maximum absorbances respectively; EC50 is the IgG titer that gives half of maximum absorbance ymax ; Hill describes the slope of the curve and; x is the log10 of the IgG titer. 
+
+Evaluation of the model is carried out by X-fold cross-validation carried out N number of times. Both X and N parameters can be tuned by the user.
 
 ## Input
 The input file is an excel file, the column titles need to be as described in the figure:
