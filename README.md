@@ -97,4 +97,19 @@ Observed and predicted values are also reported in an excel file ('output\_dir/i
 </p>
 
 
-Finally, a su
+Finally, a summary ('output\_dir/summary.xlsx') is also saved, describing the R^2 and RMSE at each round of evaluation carried out:
+
+    Column A   Dataframe row index (disregard)
+
+    Column B   Evaluation round
+
+    Column C   R^2
+
+    Column D   Root Mean Squared Error (RMSE)
+
+<p align="center">
+	<b>Example of a summary describing the evaluation of the sigmoidal model</b><br>
+	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/summary.png"
+	width="500" title="Input example"><br>
+	
+</p>
