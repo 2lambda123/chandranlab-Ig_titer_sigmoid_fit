@@ -75,7 +75,18 @@ In addition, observed and predicted titers are plotted, along with the fitted re
 </p>
 
 
-dd
+Observed and predicted values are also reported in an excel file ('output\_dir/iter\_n\_X-fold\_predictions.xlsx'):
+
+    Column A   Sample name
+
+    Column B   Observed titers
+
+    Column C   Observed Absorbance
+
+    Column D   Log10 transformed titers
+    
+    Column E   Predicted titers (Log10 transformed)
+
 
 
 <p align="center">
@@ -85,3 +96,5 @@ dd
 	
 </p>
 
+
+Finally, a su
