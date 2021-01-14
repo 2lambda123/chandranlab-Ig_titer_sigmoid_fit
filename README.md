@@ -68,24 +68,24 @@ Using the entire dataset, the script fits a first sigmoidal curve. The parameter
 The non-linear model is evaluated by X-fold (user-defined) cross-validation, where the original dataset is randomly partitioned into X equal size subsets, and one of the subsets serves as the testing set while the remaining nine subsets are used for training the non-linear model. This process is repeated 10 times, using subsets for testing and training each time to ensure that all data points in our dataset have been used once for testing. In addition, evaluation is also performed iteratively: the nonlinear model is evaluated by 10-fold cross-validation n (user-defined) number of times. Non-linear regression was performed using the scipy library (Virtanen et al. 2020).
 
 
-At each evaluation round the algorithm computes the R^2 and Root Mean Squared Error (RMSE) value between the observed and predicted IgG titers and plots a histogram ('histogram.pdf') of the R2 values:
+At each evaluation round the algorithm computes the R<sup>2</sup> and Root Mean Squared Error (RMSE) value between the observed and predicted IgG titers and plots a histogram ('histogram.pdf') of the R2 values:
 
 
 <p align="center">
-	<b>R^2 Example of R^2 histogram after evaluating the sigmoidal curve by 10-Fold cross-validation 100 times</b><br>
+	<b>R<sup>2</sup> Example of R<sup>2</sup> histogram after evaluating the sigmoidal curve by 10-Fold cross-validation 100 times</b><br>
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/histogram.png"
 	width="500" title="Input example"><br>
 
 </p>
 
 
-A summary file ('output\_dir/summary.xlsx') describes the R^2 and RMSE at each round of evaluation carried out:
+A summary file ('output\_dir/summary.xlsx') describes the R<sup>2</sup> and RMSE at each round of evaluation carried out:
 
     Column A   Dataframe row index (disregard)
 
     Column B   Evaluation round
 
-    Column C   R^2
+    Column C   R<sup>2</sup>
 
     Column D   Root Mean Squared Error (RMSE)
 
@@ -122,7 +122,7 @@ Observed and predicted values are also reported in an excel file ('output\_dir/i
 
 
 <p align="center">
-	<b>Example of the evaluation summary describing R^2 and RMSE at each round of 10-fold cross-validation</b><br>
+	<b>Example of the evaluation summary describing R<sup>2</sup> and RMSE at each round of 10-fold cross-validation</b><br>
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/output_xfold_eval.png"
 	width="500" title="Input example"><br>
 	
