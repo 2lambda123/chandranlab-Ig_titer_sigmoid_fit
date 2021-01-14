@@ -51,12 +51,16 @@ Using the entire dataset, the script fits a first sigmoidal curve. The parameter
 
 
 #### Evaluation of fitted model by X-Fold cross-validation
-The nonlinear model is evaluated by X-fold (user-defined) cross-validation, where the original dataset is randomly partitioned into X equal size subsets, and one of the subsets serves as the testing set while the remaining nine subsets are used for training the non-linear model. This process is repeated 10 times, using subsets for testing and training each time to ensure that all data points in our dataset have been used once for testing. In addition, evaluation is also performed iteratively: the nonlinear model is evaluated by 10-fold cross-validation n (user-defined) number of times; at each iteraction the algorithm computes the R2 and Root Mean Squared Error (RMSE) value between the observed and predicted IgG titers. Non-linear regression was performed using the scipy library (Virtanen et al. 2020).
+The non-linear model is evaluated by X-fold (user-defined) cross-validation, where the original dataset is randomly partitioned into X equal size subsets, and one of the subsets serves as the testing set while the remaining nine subsets are used for training the non-linear model. This process is repeated 10 times, using subsets for testing and training each time to ensure that all data points in our dataset have been used once for testing. In addition, evaluation is also performed iteratively: the nonlinear model is evaluated by 10-fold cross-validation n (user-defined) number of times. Non-linear regression was performed using the scipy library (Virtanen et al. 2020).
+
+
+At each evaluation iteration the algorithm computes the R2 and Root Mean Squared Error (RMSE) value between the observed and predicted IgG titers and plots a histogram of the R2 values:
+
 
 <p align="center">
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/histogram.png"
 	width="500" title="Input example"><br>
-	Histograme<br>
+	R^2 Histogram after evaluating the sigmoidal curve by 10-Fold cross-validation 100 times<br>
 </p>
 
 dd
