@@ -14,4 +14,4 @@ dd
 
 ## Output
 dd
-<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/input.png" width="300">
+<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/input.png" width="300" align="center">
