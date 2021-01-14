@@ -25,5 +25,11 @@ The input file is an excel file where the first column "Sample" describes the sa
 
 ### Fitted model
 
+<p align="center">
+	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/fitted_sigmoidal_.png"
+	width="300" title="Input example"><br>
+	Experimental data and its fitted sigmoidal<br>
+</p>
+
 
 ### Evaluation of fitted model by X-Fold cross-validation
