@@ -9,7 +9,8 @@
 
 
 ## Input
-The input file is an excel file\
+The input file is an excel file where the first column "Sample" describes the sample name, the second column "Titer" shows the experimentally determined titers and the third column "Absorbance" shows the corresponding Absorbances at a given dilution point:
+
 
 <p align="center">
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/input.png"
