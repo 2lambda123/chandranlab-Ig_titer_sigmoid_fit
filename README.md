@@ -20,7 +20,17 @@ The input file is an excel file where the first column "Sample" describes the sa
 
 
 ## Output
-### Processed input data
+The output of a given run (model fit and evaluation) is saved in a user-defined directory
+
+#### Processed input data
+The transformed data used to train and test the fitted sigmoidal curve is saved saved as a separate excel file "*_processed.xlsx":
+    Column A   Sample name
+
+    Column B   Observed titers
+
+    Column C   Observed Absorbance
+
+    Column D   Log10 transformed titers
 
 
 ### Fitted model
@@ -32,7 +42,7 @@ The input file is an excel file where the first column "Sample" describes the sa
 </p>
 
 
-### Evaluation of fitted model by X-Fold cross-validation
+#### Evaluation of fitted model by X-Fold cross-validation
 dd
 
 <p align="center">
