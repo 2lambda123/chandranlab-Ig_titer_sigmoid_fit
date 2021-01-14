@@ -10,7 +10,8 @@
 
 ## Input
 dd
-![Input example](Images/input.png){:height="50px" width="50px"}
+![Input example](Images/input.png =10x10)
 
 ## Output
 dd
+{:height="50px" width="50px"}
