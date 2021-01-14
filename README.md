@@ -68,7 +68,7 @@ At each evaluation iteration the algorithm computes the R^2 and Root Mean Square
 In addition, observed and predicted titers are plotted, along with the fitted regression model, at each evaluation iteration:
 
 <p align="center">
-	<b>Observed Vs Predicted titers at a given iteration of X-fold cross-validation</b><br>
+	<b>Example of observed Vs predicted titers at a given iteration of X-fold cross-validation</b><br>
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/iter_0_10-fold_Observed_Vs_Predicted.png"
 	width="500" title="Input example"><br>
 	
@@ -76,4 +76,12 @@ In addition, observed and predicted titers are plotted, along with the fitted re
 
 
 dd
+
+
+<p align="center">
+	<b>Overview of the input dataset used in this study</b><br>
+	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/output_xfold_eval.png"
+	width="400" title="Input example"><br>
+	
+</p>
 
