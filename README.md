@@ -14,7 +14,7 @@ The input file is an excel file where the first column "Sample" describes the sa
 
 <p align="center">
 	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/input.png"
-	width="300" title="Input example"><br>
+	width="400" title="Input example"><br>
 	Overview of the input dataset used in this study<br>
 </p>
 
@@ -33,3 +33,18 @@ The input file is an excel file where the first column "Sample" describes the sa
 
 
 ### Evaluation of fitted model by X-Fold cross-validation
+dd
+
+<p align="center">
+	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/histograme.png"
+	width="500" title="Input example"><br>
+	Experimental data and its fitted sigmoidal<br>
+</p>
+
+dd
+
+<p align="center">
+	<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/iter_0_10-fold_Observed_Vs_Predicted.png"
+	width="500" title="Input example"><br>
+	Experimental data and its fitted sigmoidal<br>
+</p>
