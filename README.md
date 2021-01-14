@@ -9,9 +9,8 @@
 
 
 ## Input
-dd
-![Input example](Images/input.png =10x10)
+The input file is an excel file \
+<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/input.png" width="300" align="center">
 
 ## Output
-dd\
-<img src="https://github.com/gorkaLasso/Ig_titer_sigmoid_fit/blob/master/Images/input.png" width="300" align="center">
+
