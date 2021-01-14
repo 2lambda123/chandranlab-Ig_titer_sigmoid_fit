@@ -1,4 +1,4 @@
-# IG titer quantification from fitted sigmoidal curve
+# IG titer quantification from fitted sigmoidal curves
 
 ## Table of contents
 * [Overview](#Overview)
@@ -20,4 +20,10 @@ The input file is an excel file where the first column "Sample" describes the sa
 
 
 ## Output
+### Processed input data
 
+
+### Fitted model
+
+
+### Evaluation of fitted model by X-Fold cross-validation
