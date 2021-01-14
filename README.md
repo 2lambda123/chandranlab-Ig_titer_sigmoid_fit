@@ -1,4 +1,4 @@
-# IG titer quantification from single point dilution points
+# IG titer quantification from single dilution points
 
 
 ## Table of contents
