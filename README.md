@@ -84,7 +84,7 @@ A summary file ('output\_dir/summary.xlsx') describes the R^2 and RMSE at each r
 </p>
 
 
-In addition, observed and predicted titers are plotted, along with the fitted regression model, at each evaluation iteration ('output\_dir/iter\_n\_X-fold\_Observed\_Vs_Predicted.pdf'):
+In addition, observed and predicted titers are plotted, along with the fitted regression model, at each evaluation round ('output\_dir/iter\_n\_X-fold\_Observed\_Vs_Predicted.pdf'):
 
 <p align="center">
 	<b>Example of observed Vs predicted titers at a given iteration of X-fold cross-validation</b><br>
@@ -94,7 +94,7 @@ In addition, observed and predicted titers are plotted, along with the fitted re
 </p>
 
 
-Observed and predicted values are also reported in an excel file ('output\_dir/iter\_n\_X-fold\_predictions.xlsx'):
+Observed and predicted values are also reported in an excel file ('output\_dir/iter\_n\_X-fold\_predictions.xlsx') at any given evaluation round:
 
     Column A   Sample name
 
