@@ -24,6 +24,7 @@ The output of a given run (model fit and evaluation) is saved in a user-defined 
 
 #### Processed input data
 The transformed data used to train and test the fitted sigmoidal curve is saved saved as a separate excel file "*_processed.xlsx":
+
     Column A   Sample name
 
     Column B   Observed titers
